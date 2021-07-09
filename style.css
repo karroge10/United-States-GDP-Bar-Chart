@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+	font-family: 'Nunito', sans-serif;
+}
+body,
+html {
+	margin: 0;
+	padding: 0;
+    height: 100vh;
+    background-color: #457b9d;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chart{
+    width: 900px;
+    height: 600px;
+    background-color: #f1faee;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 10px #1d35576b;
+    text-align: center;
+}
+#title{
+    font-weight: 700;
+    font-size: 36px;
+    margin: 30px 0 10px 0;
+    color: #2a384b;
+}
+.bar {
+    fill: #457b9d;
+}
+.highlight{
+    fill:#2a384b;
+}
+.val{
+    font-size: 18px;
+    font-weight: 700;
+    fill:#2a384b;
+
+}
